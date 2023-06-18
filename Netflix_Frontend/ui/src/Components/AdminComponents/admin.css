@@ -1,0 +1,5 @@
+.ul > li {
+  display: flex;
+  gap: 1rem;
+  text-align: start;
+}
