@@ -72,10 +72,10 @@ const Signupform = () => {
             inputform
               ? dataform
               : swal({
-                  title: "Form Empty",
-                  text: "Please Fill the Sign Up Form Completely",
-                  icon: "failed",
-                })
+                title: "Form Empty",
+                text: "Please Fill the Sign Up Form Completely",
+                icon: "failed",
+              })
           }
           className="pl-6 pr-6 pt-3 pb-3 md:text-3xl lg:w-full text-xl rounded bg-red-600 font-bold"
         >
