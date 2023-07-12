@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const AdminNavbar = () => {
   return (
     <>
-      <div className="flex sticky z-50 items-center justify-between pl-6 pr-6 bg-slate-800">
+      {/* <div className="flex sticky z-50 items-center justify-between pl-6 pr-6 bg-slate-800">
         <Link to="/">
           <img className="h-20" src={logo} alt="Netflix" />
         </Link>
@@ -26,7 +26,7 @@ const AdminNavbar = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
